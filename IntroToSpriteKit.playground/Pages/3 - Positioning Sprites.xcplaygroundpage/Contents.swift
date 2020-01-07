@@ -115,14 +115,14 @@ scene.addChild(star)
  */
 
 // Exercise 1: Write your code below.
-//let star = SKSpriteNode(imageNamed:  )
-
+  let star = SKSpriteNode(imageNamed: "star")
+star.position = CGPoint(x:50, y:50 )
 // Exercise 2: Write your code below.
-
-
+let circle = SKSpriteNode(imageNamed: "circle")
+circle.position = CGPoint(x:0, y:100)
 // Exercise 3: Write your code below.
-
-
+let square = SKSpriteNode(imageNamed: "square")
+square.position = CGPoint(x:)
 /*:
 
  [Previous: Creating a SpriteKit Scene](@previous) | Page 3 | [Next: Physics Engine](@next)
