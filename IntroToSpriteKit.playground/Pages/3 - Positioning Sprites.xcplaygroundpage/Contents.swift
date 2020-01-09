@@ -80,14 +80,14 @@ circle2.position = CGPoint(x: 100, y: 0)
 scene.addChild(circle2)
 
 //// Add another circle further above the origin
-//let circle3 = SKSpriteNode(imageNamed: "circle")
-//circle3.position = CGPoint(x: 0, y: 200)
-//scene.addChild(circle3)
+let circle3 = SKSpriteNode(imageNamed: "circle")
+circle3.position = CGPoint(x: 0, y: 200)
+scene.addChild(circle3)
 
 //// Add a circle at the bottom right corner of the scene
-//let circle4 = SKSpriteNode(imageNamed: "circle")
-//circle4.position = CGPoint(x: scene.size.width, y: 0)
-//scene.addChild(circle4)
+let circle4 = SKSpriteNode(imageNamed: "circle")
+circle4.position = CGPoint(x: scene.size.width, y: 0)
+scene.addChild(circle4)
 
 // Add a star at the right side of the scene, halfway up
 let star = SKSpriteNode(imageNamed: "star")
@@ -115,14 +115,15 @@ scene.addChild(star)
  */
 
 // Exercise 1: Write your code below.
-  let star = SKSpriteNode(imageNamed: "star")
-star.position = CGPoint(x:50, y:50 )
-// Exercise 2: Write your code below.
-let circle = SKSpriteNode(imageNamed: "circle")
-circle.position = CGPoint(x:0, y:100)
-// Exercise 3: Write your code below.
+let startwo = SKSpriteNode(imageNamed: "star")
+star.position = CGPoint(x:200, y:170)
+//// Exercise 2: Write your code below.
+let circletwo = SKSpriteNode(imageNamed: "circle")
+circle.position = CGPoint(x:400, y:325)
+//// Exercise 3: Write your code below.
 let square = SKSpriteNode(imageNamed: "square")
-square.position = CGPoint(x:)
+square.position = CGPoint(x: scene.size.width
+    , y: scene.size.height/2)
 /*:
 
  [Previous: Creating a SpriteKit Scene](@previous) | Page 3 | [Next: Physics Engine](@next)
