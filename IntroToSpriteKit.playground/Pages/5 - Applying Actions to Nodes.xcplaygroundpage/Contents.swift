@@ -94,6 +94,9 @@ let upThisMuch = CGVector(dx: 0, dy: 250)
 // Define an action that causes a node to move up for half a second
 let actionUpwardsMovement = SKAction.move(by: upThisMuch, duration: 0.5)
 
+// Run the action
+circle1.run(actionUpwardsMovement)
+
 /*:
  
  It is not enough to simply *define* actions.

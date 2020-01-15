@@ -183,7 +183,7 @@ boulder.physicsBody?.mass = 10
  
  */
 // What is the current direction of gravity in the scene?
-scene.physicsWorld.gravity
+//scene.physicsWorld.gravity
 
 //// Make gravity pull toward the left side of the scene
 //scene.physicsWorld.gravity = CGVector(dx: -9.8, dy: 0)
@@ -209,9 +209,9 @@ scene.physicsWorld.gravity
 // Exercise 2: Write your code below.
 scene.physicsBody?.restitution = 1
 // Exercise 3: Write your code below.
-
+//hill.physicsBody?.friction = 1
 // Exercise 4: Write your code below.
-
+scene.physicsWorld.gravity = CGVector(dx: 0, dy: `50)
 
 /*:
  
