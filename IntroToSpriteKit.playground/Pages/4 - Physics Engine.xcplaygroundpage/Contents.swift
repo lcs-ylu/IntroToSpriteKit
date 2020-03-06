@@ -211,7 +211,8 @@ scene.physicsBody?.restitution = 1
 // Exercise 3: Write your code below.
 //hill.physicsBody?.friction = 1
 // Exercise 4: Write your code below.
-scene.physicsWorld.gravity = CGVector(dx: 0, dy: `50)
+scene.physicsWorld.gravity = CGVector(dx: 0, dy: 50)
+// testing
 
 /*:
  
